@@ -1,0 +1,35 @@
+.nav {
+    max-width: 131px;
+    flex: 0.8;
+    order: 2;
+  }
+
+.nav__link {
+    margin-bottom: 15px;
+}
+.nav__link:last-of-type {
+    margin-bottom: 0;
+}
+.nav__link:first-of-type {
+    margin-top: 5px;
+}
+.nav__link a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav__link a.activeLink {
+    color: #08518a;
+}
+.nav__link a:hover {
+    color: #063458;
+}
+@media screen and (max-width: 540px) {
+    .nav {
+        max-width: 100%;
+        flex: 1 1;
+    }
+    .nav__link:first-of-type {
+        margin-top: 0;
+    }
+}

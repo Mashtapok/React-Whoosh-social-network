@@ -1,0 +1,41 @@
+.content__image {
+    width: 50vw;
+    height: 10vw;
+}
+.profileBlock {
+    display: flex;
+}
+.avatarBlock {
+    flex: 1 1 30%;
+}
+.avatar_img {
+    display: block;
+    border-radius: 2px;
+    max-width: 220px;
+}
+.informationBlock {
+    /*background: #c1c1c182;*/
+    flex: 4 1 70%;
+}
+.nameBlock {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.statusBlock input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.status {
+    display: inline-block;
+    padding: 3px 3px 4px 0;
+}
+.status:hover {
+    padding: 3px 3px 4px 0;
+    cursor: pointer;
+    background: #e6e6e6;
+}
+.no_current_status {
+    font-size: 0.75rem;
+    color: #707070;;
+}

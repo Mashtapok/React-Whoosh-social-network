@@ -1,0 +1,92 @@
+.dialogs {
+    display: flex;
+    flex-flow: row wrap;
+}
+.dialogs__items {
+    flex: 0 1;
+}
+.dialogs__heading {
+    padding: 0 5px 5px 5px;
+    font-size: 16pt;
+}
+.dialog {
+    padding: 5px 60px 5px 15px;
+}
+.dialogs img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.dialogs a {
+    color: black;
+    text-decoration: none;
+}
+.dialogs a.activeLink {
+    color: #08518a;
+}
+.dialog__item {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.dialog__name {
+    align-self: center;
+    padding-left: 10px;
+}
+
+.dialogs__items .active {
+    color: #08518a;
+}
+.messages {
+    display: flex;
+    flex-flow: nowrap column;
+    align-content: stretch;
+    flex: 3;
+    background-image: url("messages_background.jpg");
+    border-radius: 15px;
+    padding: 10px;
+}
+.message {
+    padding: 5px;
+}
+.messages__chat {
+    flex: 4 1 auto;
+    align-self: stretch;
+}
+.messages__newMessage {
+display: flex;
+max-height: 40px;
+}
+.messages__newMessage textarea {
+    flex: 3 1 60%;
+    outline: 0;
+    min-height: 36px;
+    max-height: 200px;
+    border-radius: 6px;
+    line-height: 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    transition: border-bottom-color 0.3s linear;
+    margin-right: 10px;
+    resize: none;
+}
+.messages__newMessage__button {
+    outline: none;
+    flex: 1 1 10%;
+    line-height: 1.75;
+    font-size: 16px;
+    vertical-align: top;
+    background: #2e87ca;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    border:none;
+    border-radius: 6px;
+}
+.messages__newMessage__button:hover {
+    background: #3e8eca;
+    transition: background .1s ease-in-out;
+}
+.dContents {
+    display: contents;
+}

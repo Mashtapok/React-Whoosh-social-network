@@ -1,0 +1,39 @@
+body {
+  overflow-y: scroll;
+  background:#6d98a654;
+  margin-top: 63px;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.app-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  max-width: 1220px;
+  margin: auto;
+}
+.app-wrapper > * {
+  flex: 1 100%;
+  padding: 10px;
+}
+.content {
+  flex: 5;
+  order: 3;
+  background: #edeef0;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1311px) {
+  .app-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .app-wrapper {
+    width: 95%;
+  }
+}
+

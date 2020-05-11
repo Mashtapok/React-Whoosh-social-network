@@ -1,0 +1,26 @@
+.paginator {
+    text-align: center;
+}
+.arrows {
+    font-size: 16px;
+}
+.paginator button {
+    box-sizing: border-box;
+    width: 35px;
+    height: 30px;
+    margin: 2px;
+    padding: 0;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #edeef0;
+}
+.paginator button:disabled{
+    color: #3636365c;
+}
+.selectedPage {
+    border-radius: 5px;
+    background: #2e87ca !important;
+    color: white !important;
+}

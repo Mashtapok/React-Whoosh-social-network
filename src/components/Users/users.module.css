@@ -1,0 +1,86 @@
+.pageTitle {
+    padding: 0 5px 5px 5px;
+    font-size: 16pt;
+}
+
+.body {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px 20px 20px 10px;
+}
+
+.userBlock {
+    display: flex;
+    padding: 20px 0;
+    border-top: 1px solid #d9d9d9;
+}
+
+.avatar_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.avatar_follow_block {
+    display: flex;
+    flex-flow: column;
+}
+
+.followButton {
+    outline: none;
+    margin-top: 2px;
+    font-size: 14px;
+    vertical-align: top;
+    background: #2e87ca;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.unfollowButton {
+    outline: none;
+    margin-top: 2px;
+    font-size: 14px;
+    vertical-align: top;
+    background: #7195b2;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+.unfollowButton:hover {
+    background: #7195b2d9;
+    transition: background .1s ease-in-out;
+}
+.followButton:hover {
+    background: #3e8eca;
+    transition: background .1s ease-in-out;
+}
+
+.followButton:disabled {
+    background: #2e87ca99;
+    cursor: progress;
+}
+
+.aboutUser_block {
+    display: flex;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.name_block {
+    flex: 2 0;
+}
+
+.name {
+    font-size: 1.7rem;
+}
+
+.status_block {
+
+}

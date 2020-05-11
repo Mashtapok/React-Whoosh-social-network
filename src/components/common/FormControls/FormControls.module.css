@@ -1,0 +1,64 @@
+.formControl {
+    display: block;
+    position: relative;
+    margin-top: 3px;
+}
+.formControl_dContents {
+    display: contents;
+}
+.formControl.error textarea,
+.formControl.error input {
+    box-shadow: 0 0 2px 0 red;
+}
+.error_message {
+    color: red;
+    font-size: 13px;
+    position: relative;
+}
+.error_icon {
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 305px;
+    font-size: 18px;
+}
+.Input {
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.checkboxBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.checkboxBlock.error label {
+    color: red;
+}
+.checkbox {
+
+}
+.checkboxBlock__label {
+    display: flex !important;
+}
+.checkboxBlock__left {
+    display: flex;
+}
+.checkboxBlock__right {
+
+}
+.submitButton {
+    outline: none;
+    line-height: 1.5;
+    font-size: 14px;
+    background: #2e87ca;
+    padding: 5px 25px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

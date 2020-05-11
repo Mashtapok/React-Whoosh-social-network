@@ -1,0 +1,41 @@
+.postsBlock {
+    padding: 10px;
+}
+.postsBlock__row {
+    display: flex;
+    max-height: 40px;
+}
+.postsBlock textarea {
+    flex: 3 1 60%;
+    outline: 0;
+    border-radius: 6px;
+    line-height: 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    transition: border-bottom-color 0.3s linear;
+    resize: none;
+    margin-right: 10px;
+}
+.postsBlock__addButton {
+    outline: none;
+    flex: 1 1 10%;
+    line-height: 1.75;
+    font-size: 16px;
+    vertical-align: top;
+    background: #2e87ca;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+.postsBlock__addButton:hover {
+    background: #3e8eca;
+    transition: background .1s ease-in-out;
+}
+.posts {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column-reverse;  /*для появления сверху нового поста*/
+}
