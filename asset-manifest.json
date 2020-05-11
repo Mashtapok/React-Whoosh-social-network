@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Whoosh-social-network/static/css/main.9dbaf4be.chunk.css",
+    "main.css": "/React-Whoosh-social-network/static/css/main.8fccc24f.chunk.css",
     "main.js": "/React-Whoosh-social-network/static/js/main.7c4b49e7.chunk.js",
     "main.js.map": "/React-Whoosh-social-network/static/js/main.7c4b49e7.chunk.js.map",
     "runtime-main.js": "/React-Whoosh-social-network/static/js/runtime-main.4a316ee8.js",
@@ -17,12 +17,12 @@
     "static/js/5.227ba4d1.chunk.js": "/React-Whoosh-social-network/static/js/5.227ba4d1.chunk.js",
     "static/js/5.227ba4d1.chunk.js.map": "/React-Whoosh-social-network/static/js/5.227ba4d1.chunk.js.map",
     "index.html": "/React-Whoosh-social-network/index.html",
-    "precache-manifest.ccd0941755e01f5f8d30c731b8f65f3a.js": "/React-Whoosh-social-network/precache-manifest.ccd0941755e01f5f8d30c731b8f65f3a.js",
+    "precache-manifest.8ebfb4d8fe25711a64d90572b2cbdcd4.js": "/React-Whoosh-social-network/precache-manifest.8ebfb4d8fe25711a64d90572b2cbdcd4.js",
     "service-worker.js": "/React-Whoosh-social-network/service-worker.js",
     "static/css/3.53c98d05.chunk.css.map": "/React-Whoosh-social-network/static/css/3.53c98d05.chunk.css.map",
     "static/css/4.2b283795.chunk.css.map": "/React-Whoosh-social-network/static/css/4.2b283795.chunk.css.map",
     "static/css/5.8a7b0845.chunk.css.map": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css.map",
-    "static/css/main.9dbaf4be.chunk.css.map": "/React-Whoosh-social-network/static/css/main.9dbaf4be.chunk.css.map",
+    "static/css/main.8fccc24f.chunk.css.map": "/React-Whoosh-social-network/static/css/main.8fccc24f.chunk.css.map",
     "static/js/2.b4d53577.chunk.js.LICENSE.txt": "/React-Whoosh-social-network/static/js/2.b4d53577.chunk.js.LICENSE.txt",
     "static/media/favourite.mp3": "/React-Whoosh-social-network/static/media/favourite.30ca2705.mp3",
     "static/media/Dialogs.module.css": "/React-Whoosh-social-network/static/media/messages_background.2d05046f.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a316ee8.js",
     "static/js/2.b4d53577.chunk.js",
-    "static/css/main.9dbaf4be.chunk.css",
+    "static/css/main.8fccc24f.chunk.css",
     "static/js/main.7c4b49e7.chunk.js"
   ]
 }
