@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d4fb9f66a183e96f7c2679c9eed3b95",
+    "revision": "181ef82feb1e3a985539cc7cd082cb70",
     "url": "/React-Whoosh-social-network/index.html"
   },
   {
-    "revision": "d78c6278917962fbda64",
+    "revision": "ca6367b5e3e7cb76317b",
     "url": "/React-Whoosh-social-network/static/css/3.53c98d05.chunk.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css"
   },
   {
-    "revision": "638dc52b74b6fcb2f105",
+    "revision": "d41dcd027aefc2c1e8ae",
     "url": "/React-Whoosh-social-network/static/css/main.9dbaf4be.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/js/2.b4d53577.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d78c6278917962fbda64",
-    "url": "/React-Whoosh-social-network/static/js/3.01c4e526.chunk.js"
+    "revision": "ca6367b5e3e7cb76317b",
+    "url": "/React-Whoosh-social-network/static/js/3.9abf61fa.chunk.js"
   },
   {
     "revision": "7e39ed879444aea91de1",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/js/5.227ba4d1.chunk.js"
   },
   {
-    "revision": "638dc52b74b6fcb2f105",
-    "url": "/React-Whoosh-social-network/static/js/main.abf9f397.chunk.js"
+    "revision": "d41dcd027aefc2c1e8ae",
+    "url": "/React-Whoosh-social-network/static/js/main.7c4b49e7.chunk.js"
   },
   {
-    "revision": "91b71132d83dfad31f0e",
-    "url": "/React-Whoosh-social-network/static/js/runtime-main.f0d7e0b2.js"
+    "revision": "73d4858aa0bd7a76a612",
+    "url": "/React-Whoosh-social-network/static/js/runtime-main.4a316ee8.js"
   },
   {
     "revision": "30ca2705d475e4a07cb9a9bfea093231",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e5007e6d98764d72cba3c57370734caa",
     "url": "/React-Whoosh-social-network/static/media/preloader.e5007e6d.svg"
+  },
+  {
+    "revision": "d3569aa1e5a0ab6ebbe4848b02829c96",
+    "url": "/React-Whoosh-social-network/static/media/user.d3569aa1.svg"
   }
 ]);
