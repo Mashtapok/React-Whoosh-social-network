@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2e3b37f9084928fa4098ecdb592c3db",
+    "revision": "10f0216d3d1fc6c5de80e8afa2ef21d9",
     "url": "/React-Whoosh-social-network/index.html"
   },
   {
-    "revision": "8aaa569ce5e20fd352cd",
+    "revision": "3ccbde1a2a5406c56c97",
     "url": "/React-Whoosh-social-network/static/css/3.53c98d05.chunk.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/css/4.2b283795.chunk.css"
   },
   {
-    "revision": "bc2f5c1eb49fdc14859f",
+    "revision": "a5c29a3778b4da9b6fa6",
     "url": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css"
   },
   {
@@ -20,40 +20,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/css/6.ffdfb9db.chunk.css"
   },
   {
-    "revision": "9102c154b3d9b0f32d6c",
-    "url": "/React-Whoosh-social-network/static/css/main.6018da70.chunk.css"
+    "revision": "963cb251ef7b5ec1b180",
+    "url": "/React-Whoosh-social-network/static/css/main.dc7d930a.chunk.css"
   },
   {
-    "revision": "52ab6f12834661826d60",
-    "url": "/React-Whoosh-social-network/static/js/2.92de7c42.chunk.js"
+    "revision": "c1b4afe978cbb8ce8c83",
+    "url": "/React-Whoosh-social-network/static/js/2.5f5a0a62.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/React-Whoosh-social-network/static/js/2.92de7c42.chunk.js.LICENSE.txt"
+    "url": "/React-Whoosh-social-network/static/js/2.5f5a0a62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8aaa569ce5e20fd352cd",
-    "url": "/React-Whoosh-social-network/static/js/3.b57ba73a.chunk.js"
+    "revision": "3ccbde1a2a5406c56c97",
+    "url": "/React-Whoosh-social-network/static/js/3.689e9e48.chunk.js"
   },
   {
     "revision": "9b1f3f39b9ce63f18c94",
     "url": "/React-Whoosh-social-network/static/js/4.723f6291.chunk.js"
   },
   {
-    "revision": "bc2f5c1eb49fdc14859f",
-    "url": "/React-Whoosh-social-network/static/js/5.94991d30.chunk.js"
+    "revision": "a5c29a3778b4da9b6fa6",
+    "url": "/React-Whoosh-social-network/static/js/5.7f678a9d.chunk.js"
   },
   {
     "revision": "971097eff829689de443",
     "url": "/React-Whoosh-social-network/static/js/6.360c9178.chunk.js"
   },
   {
-    "revision": "9102c154b3d9b0f32d6c",
-    "url": "/React-Whoosh-social-network/static/js/main.f5972d1c.chunk.js"
+    "revision": "963cb251ef7b5ec1b180",
+    "url": "/React-Whoosh-social-network/static/js/main.e20fcb80.chunk.js"
   },
   {
-    "revision": "bd62b57292046e4806f3",
-    "url": "/React-Whoosh-social-network/static/js/runtime-main.b7a3d919.js"
+    "revision": "856c76a0bd0b5db85116",
+    "url": "/React-Whoosh-social-network/static/js/runtime-main.b4cc979d.js"
   },
   {
     "revision": "30ca2705d475e4a07cb9a9bfea093231",
