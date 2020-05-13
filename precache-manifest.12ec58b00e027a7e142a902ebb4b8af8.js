@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08dfc849232a9d9e4db9acf8828b8b99",
+    "revision": "61de09d3c6ed552d4f52d4622b53b10a",
     "url": "/React-Whoosh-social-network/index.html"
   },
   {
