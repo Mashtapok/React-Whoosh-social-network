@@ -1,9 +1,10 @@
 import s from "./Music.module.css";
-import React from 'react';
+import React, {useEffect} from 'react';
 import putinSong from "../../assets/favourite.mp3"
 
 
 const Music = (props) => {
+    useEffect(() => {document.title = "Музыка"},[]);
     return (
         <div className="content">
             <div className="container">

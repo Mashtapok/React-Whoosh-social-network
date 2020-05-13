@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../../App.css"
 import styles from "./Login.module.css";
 import {Field, reduxForm} from "redux-form";
@@ -36,6 +36,8 @@ const LoginForm = ({handleSubmit, error}) => {
 const LoginReduxForm = reduxForm({form: 'login'})(LoginForm);
 
 const Login = (props) => {
+    useEffect(() => {document.title = "Войти | Whoosh"},[]);
+
     const onSubmit = (formData => {
         props.login(formData.email, formData.password, formData.rememberMe);
     });

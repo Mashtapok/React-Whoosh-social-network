@@ -1,14 +1,18 @@
 import React from 'react';
 import s from "./ProfileInfo.module.css";
-import userPhoto from "../../../assets/images/user.png";
+import userPhoto from "../../../assets/images/user.svg";
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatusHooks from "./ProfileStatusHooks";
 
-const ProfileInfo = ({profile, isFetching, status, updateUserStatus}) => {
+const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, updatePhoto, isAvatarUpdating}) => {
+    const onAvatarSelected = (event) => {
+        if (event.target.files.length) {
+            updatePhoto(event.target.files[0]);
+        }
+    };
     if (!profile) {
         return <Preloader/>
     }
-
     if (isFetching) {
         return <Preloader/>
     }
@@ -16,11 +20,23 @@ const ProfileInfo = ({profile, isFetching, status, updateUserStatus}) => {
         <>
             <div className={s.profileBlock}>
                 <div className={s.avatarBlock}>
-                    <img src={profile.photos.large !== null ? profile.photos.large : userPhoto } alt="avatar" className={s.avatar_img}/>
+                    <img src={profile.photos.large || userPhoto }
+                         alt="фото пользователя" className={s.avatar_img}/>
+                         <div style={isAvatarUpdating ? {display : "flex"} : {display : "none"}} className={s.loaging_fogging}>Загрузка...</div>
+
+                    {isOwner && <label htmlFor="avatar" className={s.changeAvatar__container}>
+                        <div>
+                            <i className="fas fa-cloud-upload-alt"/>
+                            <input onInput={onAvatarSelected} type="file" id="avatar" style={{display: "none"}} />
+                        </div>
+                    </label>}
+
                 </div>
+                
+                
                 <div className={s.informationBlock}>
                     <div className={s.nameBlock}>{profile.fullName}</div>
-                    <ProfileStatusHooks status={status} updateUserStatus={updateUserStatus }/>
+                    <ProfileStatusHooks isOwner={isOwner} status={status} updateUserStatus={updateUserStatus }/>
                 </div>
             </div>
         </>

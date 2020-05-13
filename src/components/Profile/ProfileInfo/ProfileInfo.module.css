@@ -6,19 +6,20 @@
     display: flex;
 }
 .avatarBlock {
-    flex: 1 1 30%;
+    flex: 1 1;
+    position: relative;
+    margin-right: 30px;
 }
 .avatar_img {
     display: block;
     border-radius: 2px;
     max-width: 220px;
+    width: 220px;
 }
 .informationBlock {
-    /*background: #c1c1c182;*/
     flex: 4 1 70%;
 }
 .nameBlock {
-    margin-left: 10px;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -38,4 +39,19 @@
 .no_current_status {
     font-size: 0.75rem;
     color: #707070;;
+}
+.changeAvatar__container {
+    position: absolute;
+}
+.loaging_fogging {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.52);
 }

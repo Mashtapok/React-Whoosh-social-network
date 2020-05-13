@@ -10,16 +10,22 @@ const ProfileStatusHooks = (props) => {
     }, [props.status]);
 
     const activateEditMode = () => {
-        setEditMode(true);
+        if(props.isOwner) {
+            setEditMode(true);
+        }
     };
     const deactivateEditMode = () => {
-        setEditMode(false);
-        props.updateUserStatus(status);
-    };
-    const enterDeactivateEditMode = (event) => {
-        if (event.key === "Enter") {
+        if(props.isOwner) {
             setEditMode(false);
             props.updateUserStatus(status);
+        }
+    };
+    const enterDeactivateEditMode = (event) => {
+        if(props.isOwner) {
+            if (event.key === "Enter") {
+                setEditMode(false);
+                props.updateUserStatus(status);
+            }
         }
     };
     const onStatusChange = (event) => {
@@ -34,7 +40,7 @@ const ProfileStatusHooks = (props) => {
                              type="text" value={status}/>
                     : <p onDoubleClick={activateEditMode}
                          className={s.status}>{props.status ||
-                    <span className={s.no_current_status}>изменить статус</span>}</p>
+                    <span className={s.no_current_status}>{props.isOwner ? "изменить статус" : "нет статуса"}</span>}</p>
                 }
             </div>
         </div>

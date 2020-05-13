@@ -38,7 +38,15 @@ export const profileAPI = {
         })
     },
     updateStatus(status) {
-        return instance.put(`profile/status`, { status: status }).then(response => {
+        return instance.put(`profile/status`, {status: status}).then(response => {
+            return response.data
+        })
+    },
+    updatePhoto(photoFile) {
+        let formData = new FormData();
+        formData.append('file', photoFile);
+
+        return instance.put(`profile/photo`, formData).then(response => {
             return response.data
         })
     }
@@ -51,7 +59,7 @@ export const authAPI = {
         })
     },
     login(email, password, rememberMe = false) {
-        return instance.post(`auth/login`, { email, password, rememberMe}).then(response => {
+        return instance.post(`auth/login`, {email, password, rememberMe}).then(response => {
             return response.data
         })
     },

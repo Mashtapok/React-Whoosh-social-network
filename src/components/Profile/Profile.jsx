@@ -11,8 +11,9 @@ const Profile = (props) => {
     return (
         <div className="content">
             <div className="container">
-                <ProfileInfo profile={props.profile} isFetching={props.isFetching} status={props.status}
-                             updateUserStatus={props.updateUserStatus }/>
+                <ProfileInfo isOwner={props.isOwner} profile={props.profile} isFetching={props.isFetching} status={props.status}
+                             updateUserStatus={props.updateUserStatus } updatePhoto={props.updatePhoto}
+                             isAvatarUpdating={props.isAvatarUpdating} />
                 {props.profile.userId === props.myUserId && <MyPostsContainer />}
             </div>
         </div>
