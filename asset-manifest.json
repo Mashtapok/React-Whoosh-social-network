@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Whoosh-social-network/static/css/main.77a6e0f1.chunk.css",
-    "main.js": "/React-Whoosh-social-network/static/js/main.1776fe9b.chunk.js",
-    "main.js.map": "/React-Whoosh-social-network/static/js/main.1776fe9b.chunk.js.map",
+    "main.js": "/React-Whoosh-social-network/static/js/main.5a3d9277.chunk.js",
+    "main.js.map": "/React-Whoosh-social-network/static/js/main.5a3d9277.chunk.js.map",
     "runtime-main.js": "/React-Whoosh-social-network/static/js/runtime-main.1d479135.js",
     "runtime-main.js.map": "/React-Whoosh-social-network/static/js/runtime-main.1d479135.js.map",
     "static/js/2.73b2d40c.chunk.js": "/React-Whoosh-social-network/static/js/2.73b2d40c.chunk.js",
@@ -23,7 +23,7 @@
     "static/js/7.da348046.chunk.js": "/React-Whoosh-social-network/static/js/7.da348046.chunk.js",
     "static/js/7.da348046.chunk.js.map": "/React-Whoosh-social-network/static/js/7.da348046.chunk.js.map",
     "index.html": "/React-Whoosh-social-network/index.html",
-    "precache-manifest.17c1e12db44a66960e647eb1580c7506.js": "/React-Whoosh-social-network/precache-manifest.17c1e12db44a66960e647eb1580c7506.js",
+    "precache-manifest.b61f29621b769bf812f1223b6bbfc25f.js": "/React-Whoosh-social-network/precache-manifest.b61f29621b769bf812f1223b6bbfc25f.js",
     "service-worker.js": "/React-Whoosh-social-network/service-worker.js",
     "static/css/3.d2ad1a94.chunk.css.map": "/React-Whoosh-social-network/static/css/3.d2ad1a94.chunk.css.map",
     "static/css/4.2b283795.chunk.css.map": "/React-Whoosh-social-network/static/css/4.2b283795.chunk.css.map",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.1d479135.js",
     "static/js/2.73b2d40c.chunk.js",
     "static/css/main.77a6e0f1.chunk.css",
-    "static/js/main.1776fe9b.chunk.js"
+    "static/js/main.5a3d9277.chunk.js"
   ]
 }
