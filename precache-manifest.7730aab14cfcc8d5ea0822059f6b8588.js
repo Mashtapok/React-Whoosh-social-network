@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82b3db2f5f45cd7b68c94156f1930666",
+    "revision": "a3cc030dd361ac066ef72b97f869d4e3",
     "url": "/React-Whoosh-social-network/index.html"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css"
   },
   {
-    "revision": "e26ee12d0e214af14eac",
-    "url": "/React-Whoosh-social-network/static/css/6.e0fbeba6.chunk.css"
+    "revision": "00216baaf5a4b209464f",
+    "url": "/React-Whoosh-social-network/static/css/6.c3f0cbc0.chunk.css"
   },
   {
     "revision": "b4d5aeeda1286077750a",
     "url": "/React-Whoosh-social-network/static/css/7.ffdfb9db.chunk.css"
   },
   {
-    "revision": "8979db7f62f8aefc83bb",
-    "url": "/React-Whoosh-social-network/static/css/main.77a6e0f1.chunk.css"
+    "revision": "8070ccf4e4771f766986",
+    "url": "/React-Whoosh-social-network/static/css/main.50245a96.chunk.css"
   },
   {
     "revision": "55fc8954845d07d32aba",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/js/5.1224384f.chunk.js"
   },
   {
-    "revision": "e26ee12d0e214af14eac",
-    "url": "/React-Whoosh-social-network/static/js/6.5228888f.chunk.js"
+    "revision": "00216baaf5a4b209464f",
+    "url": "/React-Whoosh-social-network/static/js/6.3fc76cee.chunk.js"
   },
   {
     "revision": "b4d5aeeda1286077750a",
     "url": "/React-Whoosh-social-network/static/js/7.da348046.chunk.js"
   },
   {
-    "revision": "8979db7f62f8aefc83bb",
+    "revision": "8070ccf4e4771f766986",
     "url": "/React-Whoosh-social-network/static/js/main.5a3d9277.chunk.js"
   },
   {
-    "revision": "1a2b6d487f0050a4f537",
-    "url": "/React-Whoosh-social-network/static/js/runtime-main.1d479135.js"
+    "revision": "dac137a5ba15c9eeae6e",
+    "url": "/React-Whoosh-social-network/static/js/runtime-main.b4b1f0a2.js"
   },
   {
     "revision": "30ca2705d475e4a07cb9a9bfea093231",
