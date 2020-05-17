@@ -7,6 +7,7 @@
   left: 0;
   right: 0;
   padding: 5px 10px;
+  z-index: 1000;
   }
 
 .header__container {
@@ -70,5 +71,14 @@
 @media screen and (max-width: 1080px) {
   .header__container {
     width: 95%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .logo_name {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+  .header img {
+    width: 35px;
   }
 }

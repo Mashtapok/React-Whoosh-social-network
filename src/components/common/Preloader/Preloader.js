@@ -3,7 +3,7 @@ import React from "react";
 
 const Preloader = () => {
     return (
-        <img src={preloader} style={ {position: "absolute", left: "45%", top: "10%" }}/>
+        <img src={preloader} style={ {position: "absolute", left: "50%", top: "100px" }}/>
     );
 };
 export default Preloader;

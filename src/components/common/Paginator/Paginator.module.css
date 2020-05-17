@@ -24,3 +24,10 @@
     background: #2e87ca !important;
     color: white !important;
 }
+
+@media screen and (max-width: 555px) {
+    .paginator button {
+        width: 30px;
+        height: 25px;
+    }
+}

@@ -8,6 +8,8 @@ const instance = axios.create({
     }
 });
 
+const newsURL = "https://newsapi.org/v2/top-headlines?country=ru&apiKey=3349251321fe4848b5273444970c2b98";
+
 export const usersAPI = {
     getUsers(currentPage = 1, pageSize = 10) {
         return instance.get(`users?page=${currentPage}&count=${pageSize}`).then(response => {
@@ -49,6 +51,11 @@ export const profileAPI = {
         return instance.put(`profile/photo`, formData).then(response => {
             return response.data
         })
+    },
+    updateProfile(profile) {
+        return instance.put(`profile`, profile).then(response => {
+            return response.data
+        })
     }
 };
 
@@ -69,4 +76,13 @@ export const authAPI = {
         })
     }
 };
+
+export const newsAPI = {
+    getNews() {
+        return axios.get(newsURL).then(response => {
+            return response.data
+        })
+    }
+};
+
 

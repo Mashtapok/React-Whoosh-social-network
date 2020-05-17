@@ -13,7 +13,7 @@ const Profile = (props) => {
             <div className="container">
                 <ProfileInfo isOwner={props.isOwner} profile={props.profile} isFetching={props.isFetching} status={props.status}
                              updateUserStatus={props.updateUserStatus } updatePhoto={props.updatePhoto}
-                             isAvatarUpdating={props.isAvatarUpdating} />
+                             isAvatarUpdating={props.isAvatarUpdating} updateProfile={props.updateProfile} />
                 {props.profile.userId === props.myUserId && <MyPostsContainer />}
             </div>
         </div>

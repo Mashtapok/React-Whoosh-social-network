@@ -6,7 +6,7 @@
 .body {
     display: flex;
     flex-flow: column wrap;
-    padding: 10px 20px 20px 10px;
+    padding: 10px 0 25px 0;
 }
 
 .userBlock {
@@ -68,7 +68,6 @@
 }
 
 .aboutUser_block {
-    display: flex;
     width: 100%;
     padding: 0 40px;
 }
@@ -79,8 +78,22 @@
 
 .name {
     font-size: 1.7rem;
+    /*display: inline-block;*/
+    word-break: break-all;
+    /*overflow-wrap: anywhere;*/
 }
 
 .status_block {
 
+}
+
+@media screen and (max-width: 555px) {
+    .pageTitle {
+        padding: 5px 5px 10px 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .name {
+        font-size: 1.4rem;
+    }
 }

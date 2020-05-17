@@ -1,0 +1,43 @@
+.statusBlock {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0 0 5px;
+}
+.statusBlock input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.status {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 4px 0;
+}
+.status::before {
+    content: "статус";
+    bottom: 20px;
+    font-size: 8px;
+    position: absolute;
+    color: #00000047;
+    transition: opacity .3s;
+}
+.status:hover::before {
+    opacity: 0;
+}
+.status:hover {
+    padding: 3px 3px 4px 0;
+    cursor: pointer;
+    background: #e6e6e6;
+}
+.no_current_status {
+    font-size: 0.75rem;
+    color: #707070;;
+}
+
+@media screen and (max-width: 555px) {
+    .status {
+        font-size: 22px;
+    }
+    .status::before {
+        font-size: 13px;
+        bottom: 26px;
+    }
+}

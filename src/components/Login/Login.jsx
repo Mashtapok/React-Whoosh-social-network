@@ -38,9 +38,9 @@ const LoginReduxForm = reduxForm({form: 'login'})(LoginForm);
 const Login = (props) => {
     useEffect(() => {document.title = "Войти | Whoosh"},[]);
 
-    const onSubmit = (formData => {
+    const onSubmit = (formData) => {
         props.login(formData.email, formData.password, formData.rememberMe);
-    });
+    };
 
     if(props.isAuth) {
         return <Redirect to={"/profile"}/>

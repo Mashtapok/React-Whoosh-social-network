@@ -46,3 +46,14 @@ export const RememberMe = ({input, meta: {touched, error}, ...props}) => {
         </div>
     );
 };
+
+export const Checkbox = ({input, meta: {touched, error}, ...props}) => {
+    const hasError = touched && error;
+    return (
+        <div className={styles.checkboxBlock + " " + (hasError ? styles.error : "")}>
+            <div className={styles.checkboxBlock__left}>
+                    <input type="checkbox" {...input} {...props} className={styles.checkbox}/>
+            </div>
+        </div>
+    );
+};

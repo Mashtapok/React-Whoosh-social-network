@@ -14,5 +14,5 @@ const Music = (props) => {
             </div>
         </div>
     );
-}
+};
 export default Music;

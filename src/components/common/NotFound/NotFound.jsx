@@ -8,7 +8,7 @@ const NotFound = () => {
             <div className="container">
 
                 <div style={{textAlign: "center"}}>
-                    <img src="https://notionpress.com/new-rewamp/images/404-error.gif"/>
+                    <img style={{maxWidth: "100%"}} src="https://notionpress.com/new-rewamp/images/404-error.gif" alt="not found"/>
                     <h2>Not found</h2>
                 </div>
             </div>

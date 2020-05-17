@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./Header.module.css";
 import {NavLink} from "react-router-dom";
+import logo from "../../assets/images/header-logo.svg";
 
 const Header = (props) => {
     return (
@@ -8,7 +9,7 @@ const Header = (props) => {
             <div className={s.header__container}>
                 <div className={s.header__row}>
                     <div className={s.header__logo}>
-                        <img src="https://tlgrm.ru/img/top-logo-icon_monochrome.svg" alt=""/>
+                        <img src={logo} alt="самолётик"/>
                         <span className={s.logo_name}>Whoosh</span>
                     </div>
                     <NavLink to={`/profile`}>

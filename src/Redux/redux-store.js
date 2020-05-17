@@ -7,6 +7,7 @@ import usersReducer from "./users-reducer";
 import authReducer from "./auth-reducer";
 import thunkMiddleware from "redux-thunk";
 import appReducer from "./app-reducer";
+import newsReducer from "./news-reducer";
 
 let reducers = combineReducers({
     profilePage: profileReducer,                // store автоматически создаёт внутри себя state: с profilePage, dialogsPage, sidebar
@@ -15,6 +16,7 @@ let reducers = combineReducers({
     auth: authReducer,
     form: formReducer,
     app: appReducer,
+    news: newsReducer,
 });
 
 let store = createStore(reducers, composeWithDevTools(applyMiddleware(thunkMiddleware)));

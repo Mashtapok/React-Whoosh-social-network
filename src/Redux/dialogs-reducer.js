@@ -8,8 +8,9 @@ let initialState = {
         {id: 4, name: 'Борис'},
     ],
     messages: [
-        {id: 1, message: 'Привет!'},
-        {id: 2, message: 'Как твои дела?'},
+        {id: 1, message: 'Привет! Как твои дела?'},
+        {id: 2, message: 'Всё понятно...'},
+        {id: 3, message: 'ну и молчи дальше'},
     ],
     newMessageText: '',
 };

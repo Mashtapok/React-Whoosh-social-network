@@ -1,4 +1,5 @@
 import {profileAPI} from "../api/api";
+import {getAuthUserData} from "./auth-reducer";
 
 const ADD_POST = 'profile/ADD-POST';
 const SET_USER_PROFILE = 'profile/SET_USER_PROFILE';
@@ -91,6 +92,14 @@ export const updatePhoto = (photo) => async dispatch => {
     if (data.resultCode === 0) {
         dispatch(updatePhotoSuccess(data.data.photos));
         dispatch(avatarIsUpdating(false));
+    }
+};
+export const updateProfile = (profile) => async (dispatch, getState) => {
+    const OwnerUserId = getState().auth.userId;
+
+    const data = await profileAPI.updateProfile(profile);
+    if (data.resultCode === 0) {
+        dispatch(getUserProfile(OwnerUserId));
     }
 };
 

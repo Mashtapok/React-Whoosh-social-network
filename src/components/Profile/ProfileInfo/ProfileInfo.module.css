@@ -9,6 +9,8 @@
     flex: 1 1;
     position: relative;
     margin-right: 30px;
+    /*для label загрузки*/
+    height: 100%;
 }
 .avatar_img {
     display: block;
@@ -20,28 +22,15 @@
     flex: 4 1 70%;
 }
 .nameBlock {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
-}
-.statusBlock input {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-}
-.status {
-    display: inline-block;
-    padding: 3px 3px 4px 0;
-}
-.status:hover {
-    padding: 3px 3px 4px 0;
-    cursor: pointer;
-    background: #e6e6e6;
-}
-.no_current_status {
-    font-size: 0.75rem;
-    color: #707070;;
 }
 .changeAvatar__container {
     position: absolute;
+    bottom: 0;
+    left: 44%;
+    font-size: 2rem;
+    color: white;
 }
 .loaging_fogging {
     position: absolute;
@@ -55,3 +44,122 @@
     color: white;
     background: rgba(0, 0, 0, 0.52);
 }
+
+/* ============================= Блок с информацией ============================================*/
+.otherInformation {
+    margin-top: 5px;
+}
+.otherInformation fieldset {
+    border: 2px dashed #d9d9d9;
+    padding-bottom: 15px;;
+}
+.otherInformation fieldset:nth-child(2) {
+    border-top: none;
+}
+.otherInformation i {
+    color: #3b3b3b;
+}
+.aboutMe, .job, .contacts {
+    padding: 5px 0;
+}
+.contancts {
+    display: flex;
+    padding: 5px 0;
+    flex-flow: column wrap;
+}
+.contacts__row {
+    display: flex;
+    box-sizing: border-box;
+}
+.label {
+    font-size: 12px;
+    flex: 0 0 48%;
+    margin-bottom: 5px;
+}
+.showMore__block {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    line-height: 150%;
+    transition: background-color .2s;
+    cursor: pointer;
+    font-size: 14px;
+    color: #1372b9;
+    text-decoration: underline;
+    text-decoration-color: #1372b9;
+}
+.showMore__block:hover {
+    background-color: #d9d9d985;
+}
+.editContacts {
+    display: flex;
+    padding: 10px 0;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.saveButton {
+    text-align: center;
+    margin-top: -15px;
+}
+.btn_save {
+    font-family: "Montserrat", monospace;
+    outline: none;
+    color: #4A4A4A;
+    padding: 5px 15px;
+    border: 2px solid #2e87ca;
+    transition: all .2s ease;
+    background: #edeef0;
+    cursor: pointer;
+}
+.btn_save:hover {
+    color: white;
+    box-shadow:none;
+    background: #2e87ca;
+}
+.icon__block {
+    padding: 5px 10px;
+}
+.icon {
+    font-size: 28px;
+    color: #3b3b3b;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    box-sizing: border-box;
+}
+.icon:hover {
+    transform: scale(0.9);
+}
+
+
+
+/* ============================= Блок с информацией ============================================*/
+
+/* ============================= Адаптив ============================================*/
+@media screen and (max-width: 555px) {
+    .profileBlock {
+        flex-wrap: wrap;
+
+    }
+    .avatarBlock{
+        flex: 0;
+        margin: 0 auto;
+    }
+    .avatar_img {
+        max-width: 250px;
+        width: 250px;
+    }
+    .informationBlock {
+        flex: auto;
+        margin-top: 20px;
+    }
+    .nameBlock {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .label {
+        font-size: 14px;
+    }
+}
+
+/* ============================= Адаптив ============================================*/

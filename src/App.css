@@ -16,7 +16,7 @@ p {
   margin: auto;
 }
 .app-wrapper > * {
-  flex: 1 100%;
+  flex: 1 1;
   padding: 10px;
 }
 .content {
@@ -34,6 +34,11 @@ p {
 @media screen and (max-width: 1080px) {
   .app-wrapper {
     width: 95%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .content {
+    margin-bottom: 55px;
   }
 }
 
