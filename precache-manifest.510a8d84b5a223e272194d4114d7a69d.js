@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f01f108ba76a9f992b5b41282e79805",
+    "revision": "24733bbaec9cf85d221deca1665ba4bb",
     "url": "/React-Whoosh-social-network/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/css/7.ffdfb9db.chunk.css"
   },
   {
-    "revision": "e721654c5690d40e2f49",
-    "url": "/React-Whoosh-social-network/static/css/main.44c3d215.chunk.css"
+    "revision": "bd2d8c603637b3364266",
+    "url": "/React-Whoosh-social-network/static/css/main.a6702791.chunk.css"
   },
   {
     "revision": "03279fd115bf44c0edd4",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Whoosh-social-network/static/js/7.ce89e7e1.chunk.js"
   },
   {
-    "revision": "e721654c5690d40e2f49",
-    "url": "/React-Whoosh-social-network/static/js/main.bb93dc96.chunk.js"
+    "revision": "bd2d8c603637b3364266",
+    "url": "/React-Whoosh-social-network/static/js/main.7dd53a12.chunk.js"
   },
   {
     "revision": "3e49abf61736968a1169",
