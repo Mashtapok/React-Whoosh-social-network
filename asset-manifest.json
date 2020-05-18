@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/React-Whoosh-social-network/static/css/main.d0783d33.chunk.css",
-    "main.js": "/React-Whoosh-social-network/static/js/main.c6108c73.chunk.js",
-    "main.js.map": "/React-Whoosh-social-network/static/js/main.c6108c73.chunk.js.map",
-    "runtime-main.js": "/React-Whoosh-social-network/static/js/runtime-main.a3498073.js",
-    "runtime-main.js.map": "/React-Whoosh-social-network/static/js/runtime-main.a3498073.js.map",
+    "main.js": "/React-Whoosh-social-network/static/js/main.eff67f76.chunk.js",
+    "main.js.map": "/React-Whoosh-social-network/static/js/main.eff67f76.chunk.js.map",
+    "runtime-main.js": "/React-Whoosh-social-network/static/js/runtime-main.46824904.js",
+    "runtime-main.js.map": "/React-Whoosh-social-network/static/js/runtime-main.46824904.js.map",
     "static/js/2.fe457969.chunk.js": "/React-Whoosh-social-network/static/js/2.fe457969.chunk.js",
     "static/js/2.fe457969.chunk.js.map": "/React-Whoosh-social-network/static/js/2.fe457969.chunk.js.map",
     "static/css/3.9f3ef785.chunk.css": "/React-Whoosh-social-network/static/css/3.9f3ef785.chunk.css",
@@ -16,19 +16,19 @@
     "static/css/5.8a7b0845.chunk.css": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css",
     "static/js/5.479d5e58.chunk.js": "/React-Whoosh-social-network/static/js/5.479d5e58.chunk.js",
     "static/js/5.479d5e58.chunk.js.map": "/React-Whoosh-social-network/static/js/5.479d5e58.chunk.js.map",
-    "static/css/6.c3f0cbc0.chunk.css": "/React-Whoosh-social-network/static/css/6.c3f0cbc0.chunk.css",
+    "static/css/6.4024067f.chunk.css": "/React-Whoosh-social-network/static/css/6.4024067f.chunk.css",
     "static/js/6.7edee780.chunk.js": "/React-Whoosh-social-network/static/js/6.7edee780.chunk.js",
     "static/js/6.7edee780.chunk.js.map": "/React-Whoosh-social-network/static/js/6.7edee780.chunk.js.map",
     "static/css/7.ffdfb9db.chunk.css": "/React-Whoosh-social-network/static/css/7.ffdfb9db.chunk.css",
     "static/js/7.ed6304c0.chunk.js": "/React-Whoosh-social-network/static/js/7.ed6304c0.chunk.js",
     "static/js/7.ed6304c0.chunk.js.map": "/React-Whoosh-social-network/static/js/7.ed6304c0.chunk.js.map",
     "index.html": "/React-Whoosh-social-network/index.html",
-    "precache-manifest.a8dd69dd8fd2d53a220f9468980ca757.js": "/React-Whoosh-social-network/precache-manifest.a8dd69dd8fd2d53a220f9468980ca757.js",
+    "precache-manifest.e12ecef817301d4b2063db4dd55b261d.js": "/React-Whoosh-social-network/precache-manifest.e12ecef817301d4b2063db4dd55b261d.js",
     "service-worker.js": "/React-Whoosh-social-network/service-worker.js",
     "static/css/3.9f3ef785.chunk.css.map": "/React-Whoosh-social-network/static/css/3.9f3ef785.chunk.css.map",
     "static/css/4.2b283795.chunk.css.map": "/React-Whoosh-social-network/static/css/4.2b283795.chunk.css.map",
     "static/css/5.8a7b0845.chunk.css.map": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css.map",
-    "static/css/6.c3f0cbc0.chunk.css.map": "/React-Whoosh-social-network/static/css/6.c3f0cbc0.chunk.css.map",
+    "static/css/6.4024067f.chunk.css.map": "/React-Whoosh-social-network/static/css/6.4024067f.chunk.css.map",
     "static/css/7.ffdfb9db.chunk.css.map": "/React-Whoosh-social-network/static/css/7.ffdfb9db.chunk.css.map",
     "static/css/main.d0783d33.chunk.css.map": "/React-Whoosh-social-network/static/css/main.d0783d33.chunk.css.map",
     "static/js/2.fe457969.chunk.js.LICENSE.txt": "/React-Whoosh-social-network/static/js/2.fe457969.chunk.js.LICENSE.txt",
@@ -39,9 +39,9 @@
     "static/media/user.svg": "/React-Whoosh-social-network/static/media/user.d3569aa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3498073.js",
+    "static/js/runtime-main.46824904.js",
     "static/js/2.fe457969.chunk.js",
     "static/css/main.d0783d33.chunk.css",
-    "static/js/main.c6108c73.chunk.js"
+    "static/js/main.eff67f76.chunk.js"
   ]
 }
