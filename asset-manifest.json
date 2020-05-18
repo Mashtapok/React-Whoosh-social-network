@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Whoosh-social-network/static/css/main.e1e7921d.chunk.css",
+    "main.css": "/React-Whoosh-social-network/static/css/main.2337d7b0.chunk.css",
     "main.js": "/React-Whoosh-social-network/static/js/main.22e72fc5.chunk.js",
     "main.js.map": "/React-Whoosh-social-network/static/js/main.22e72fc5.chunk.js.map",
     "runtime-main.js": "/React-Whoosh-social-network/static/js/runtime-main.e1d08797.js",
@@ -23,14 +23,14 @@
     "static/js/7.ed6304c0.chunk.js": "/React-Whoosh-social-network/static/js/7.ed6304c0.chunk.js",
     "static/js/7.ed6304c0.chunk.js.map": "/React-Whoosh-social-network/static/js/7.ed6304c0.chunk.js.map",
     "index.html": "/React-Whoosh-social-network/index.html",
-    "precache-manifest.6fa1b462f58274db3750ea876b3220af.js": "/React-Whoosh-social-network/precache-manifest.6fa1b462f58274db3750ea876b3220af.js",
+    "precache-manifest.aac5b4f71818837347b5eb5d4324474e.js": "/React-Whoosh-social-network/precache-manifest.aac5b4f71818837347b5eb5d4324474e.js",
     "service-worker.js": "/React-Whoosh-social-network/service-worker.js",
     "static/css/3.d2ad1a94.chunk.css.map": "/React-Whoosh-social-network/static/css/3.d2ad1a94.chunk.css.map",
     "static/css/4.2b283795.chunk.css.map": "/React-Whoosh-social-network/static/css/4.2b283795.chunk.css.map",
     "static/css/5.8a7b0845.chunk.css.map": "/React-Whoosh-social-network/static/css/5.8a7b0845.chunk.css.map",
     "static/css/6.c3f0cbc0.chunk.css.map": "/React-Whoosh-social-network/static/css/6.c3f0cbc0.chunk.css.map",
     "static/css/7.ffdfb9db.chunk.css.map": "/React-Whoosh-social-network/static/css/7.ffdfb9db.chunk.css.map",
-    "static/css/main.e1e7921d.chunk.css.map": "/React-Whoosh-social-network/static/css/main.e1e7921d.chunk.css.map",
+    "static/css/main.2337d7b0.chunk.css.map": "/React-Whoosh-social-network/static/css/main.2337d7b0.chunk.css.map",
     "static/js/2.b74732cb.chunk.js.LICENSE.txt": "/React-Whoosh-social-network/static/js/2.b74732cb.chunk.js.LICENSE.txt",
     "static/media/favourite.mp3": "/React-Whoosh-social-network/static/media/favourite.30ca2705.mp3",
     "static/media/header-logo.svg": "/React-Whoosh-social-network/static/media/header-logo.4527c867.svg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1d08797.js",
     "static/js/2.b74732cb.chunk.js",
-    "static/css/main.e1e7921d.chunk.css",
+    "static/css/main.2337d7b0.chunk.css",
     "static/js/main.22e72fc5.chunk.js"
   ]
 }
