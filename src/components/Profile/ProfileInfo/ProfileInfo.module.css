@@ -160,6 +160,13 @@
     .label {
         font-size: 14px;
     }
+    .showMore__block {
+        font-size: 16px;
+        padding: 5px 0 10px 0;
+    }
+    .btn_save {
+        font-size: 16px;
+    }
 }
 
 /* ============================= Адаптив ============================================*/

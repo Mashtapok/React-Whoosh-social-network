@@ -2,12 +2,16 @@ import s from "./ProfileInfo.module.css";
 import React, {useState} from "react";
 import {Field, reduxForm} from "redux-form";
 import {Checkbox, Input} from "../../common/FormControls/FormControls";
+import styles from "../../Login/Login.module.css";
 
-const ProfileDataForm = ({profile, handleSubmit}) => {
+const ProfileDataForm = ({profile, handleSubmit, error}) => {
     const [showMore, setShowMore] = useState(false);
     return (
         <form className={s.otherInformation} onSubmit={handleSubmit} >
             <fieldset>
+                {error && <div className={styles.formErorr}>
+                    {error}
+                </div>}
                 <div>
                     <p className={s.label}>Имя:</p><Field placeholder="новое имя" name="fullName" component={Input}
                                                           type="text"/>
@@ -33,7 +37,7 @@ const ProfileDataForm = ({profile, handleSubmit}) => {
                 <div>Мои контакты: </div>
                 <div className={s.editContacts}>
                     {Object.keys(profile.contacts).map(key => {
-                    return <div className={s.label}>{key} : <Field placeholder={key} name={"contacts." + key}
+                    return <div key={key} className={s.label}>{key} : <Field placeholder={key} name={"contacts." + key}
                                                                  component={Input} type="text"/></div>
                 })}
 

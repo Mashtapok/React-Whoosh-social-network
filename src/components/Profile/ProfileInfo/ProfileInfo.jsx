@@ -9,8 +9,9 @@ const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, up
     const [editMode, setEditMode] = useState(false);
 
     const onSubmit = (formData) => {
-        updateProfile(formData);
-        setEditMode(false);
+        updateProfile(formData).then( ()=>{
+            setEditMode(false);
+        })
     };
 
     const onAvatarSelected = (event) => {
@@ -117,7 +118,6 @@ const Contact = ({contactTitle, contactValue}) => {
             break;
         default:
             return null;
-
     }
     return (
         <div className={s.icon__block}>

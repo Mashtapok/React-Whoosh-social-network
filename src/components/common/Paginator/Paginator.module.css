@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 555px) {
     .paginator button {
-        width: 30px;
+        width: 25px;
         height: 25px;
     }
 }

@@ -4,7 +4,7 @@ let initialState = {
     dialogs: [
         {id: 1, name: 'Степан'},
         {id: 2, name: 'Mashtapok'},
-        {id: 3, name: 'Поросёнок Пётр'},
+        {id: 3, name: 'Пётр'},
         {id: 4, name: 'Борис'},
     ],
     messages: [

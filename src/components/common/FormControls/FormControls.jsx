@@ -6,7 +6,7 @@ export const FormControl = ({input, meta: {touched, error}, children}) => {
     return (
         <div className={styles.formControl + " " + (hasError ? styles.error : "")}>
             {children}
-            {hasError && <i className={styles.error_icon + " fas fa-exclamation-circle"}></i>}
+            {hasError && <i className={styles.error_icon + " fas fa-exclamation-circle"}/>}
         </div>
     );
 };
@@ -26,7 +26,7 @@ export const Input = ({input, meta: {touched, error}, ...props}) => {
     return (
         <div className={styles.formControl + " " + (hasError ? styles.error : "")}>
             <input {...input} {...props} className={styles.Input}/>
-            {hasError && <i className={styles.error_icon + " fas fa-exclamation-circle"}></i>}
+            {hasError && <i className={styles.error_icon + " fas fa-exclamation-circle"}/>}
         </div>
     );
 };

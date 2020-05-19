@@ -8,7 +8,7 @@ import {Textarea} from "../../common/FormControls/FormControls";
 const maxLength100 = maxLengthCreator(100);
 
 const MyPosts = (props) => {
-    let postElements = props.posts.map ( p => (<Post message={p.message} likesCount={p.likesCount}
+    let postElements = props.posts.map ( post => (<Post key={post.id} message={post.message} likesCount={post.likesCount}
                                                      profile={props.profile}/>) );
 
     const addNewPost = (value) => {

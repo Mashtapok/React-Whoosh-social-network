@@ -10,7 +10,7 @@ const News = ({articles}) => {
                 <p style={{padding: "0 5px 5px 5px",
                     fontSize: "16pt"}}>Последние новости</p>
                 <div className={s.body}>
-                    {articles.map(article => <NewsItem article={article}/>)}
+                    {articles.map(article => <NewsItem key={article.publishedAt} article={article}/>)}
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import {profileAPI} from "../api/api";
 import {getAuthUserData} from "./auth-reducer";
+import {stopSubmit} from "redux-form";
 
 const ADD_POST = 'profile/ADD-POST';
 const SET_USER_PROFILE = 'profile/SET_USER_PROFILE';
@@ -100,6 +101,10 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
     const data = await profileAPI.updateProfile(profile);
     if (data.resultCode === 0) {
         dispatch(getUserProfile(OwnerUserId));
+    } else {
+        let message = `(${data.messages[0]})`;
+        dispatch(stopSubmit("editProfile", {_error: `Ошибка: ${message}`}));
+        return Promise.reject(data.messages[0])
     }
 };
 

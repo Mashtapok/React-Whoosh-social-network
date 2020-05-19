@@ -23,8 +23,8 @@ const Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged, porti
                         setPortionNumber(portionNumber - 1)
                     }}><i className="fas fa-angle-left"/>
             </button>
-            {pages.filter(page => page >= leftPortionPageNumber && page <= rightPortionPageNumber).map(page => (
-                <button className={currentPage === page && styles.selectedPage}
+            {pages.filter(page => page >= leftPortionPageNumber && page <= rightPortionPageNumber).map((page,index) => (
+                <button key={index} className={currentPage === page ? styles.selectedPage : undefined}
                         onClick={(e) => {
                             onPageChanged(page)
                         }}>{page}</button>

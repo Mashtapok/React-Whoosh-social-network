@@ -8,6 +8,7 @@ const Profile = (props) => {
     if(props.isFetching || props.profile === null) {
         return(<Preloader/>)
     }
+    document.title = `Профиль | ${props.profile.fullName}`;
     return (
         <div className="content">
             <div className="container">

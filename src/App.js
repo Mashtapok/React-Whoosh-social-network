@@ -19,8 +19,15 @@ const NewsContainer = React.lazy(() => import('./components/News/NewsContainer')
 const NotFound = React.lazy(() => import('./components/common/NotFound/NotFound'));
 
 class App extends Component {
+    catchAllUnhandledErrors = (promiseRejectionEvent) => {
+        alert("Что-то пошло не так")
+    };
     componentDidMount() {
         this.props.initializeApp();
+        window.addEventListener("unhandledrejection", this.catchAllUnhandledErrors);
+    }
+    componentWillUnmount() {
+        window.removeEventListener("unhandledrejection", this.catchAllUnhandledErrors);
     }
 
     render() {
@@ -31,18 +38,18 @@ class App extends Component {
             <div className="app-wrapper">
                 <HeaderContainer/>
                 <Navbar/>
-                    <Suspense fallback={<Preloader/>}>
-                        <Switch>
-                            <Redirect exact from="/" to="/profile"/>
-                            <Route path='/profile/:userId?' render={() => <ProfileContainer/>}/>
-                            <Route path='/dialogs' render={() => <DialogsContainer/>}/>
-                            <Route path='/users' render={() => <UsersContainer/>}/>
-                            <Route path='/news' render={() => <NewsContainer/>}/>
-                            <Route path='/music' component={NotFound}/>
-                            <Route path='/login' render={() => <LoginPage/>}/>
-                            <Route render={() => <NotFound/>}/>
-                        </Switch>
-                    </Suspense>
+                <Suspense fallback={<Preloader/>}>
+                    <Switch>
+                        <Redirect exact from="/" to="/profile"/>
+                        <Route path='/profile/:userId?' render={() => <ProfileContainer/>}/>
+                        <Route path='/dialogs' render={() => <DialogsContainer/>}/>
+                        <Route path='/users' render={() => <UsersContainer/>}/>
+                        <Route path='/news' render={() => <NewsContainer/>}/>
+                        <Route path='/music' component={NotFound}/>
+                        <Route path='/login' render={() => <LoginPage/>}/>
+                        <Route render={() => <NotFound/>}/>
+                    </Switch>
+                </Suspense>
             </div>
         );
     }

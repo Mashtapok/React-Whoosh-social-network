@@ -5,7 +5,4 @@ export const required = value => {
 
 // функция возвращает другую функцию
 export const maxLengthCreator = (maxLength) =>
-    (value) => {
-        if(value && value.length > maxLength) return `Максимальная длина ${maxLength} символов`;
-        return undefined
-    };
+    (value) => value && value.length > maxLength ? `Максимальная длина ${maxLength} символов` : undefined;

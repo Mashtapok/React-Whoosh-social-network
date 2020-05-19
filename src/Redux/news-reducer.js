@@ -20,9 +20,14 @@ export const setArticles = (articles) => ({type: SET_ARTICLES, articles});
 
 //ThinkCreators
 export const requestArticles = () => async dispatch => {
-    const data = await newsAPI.getNews();
-    if(data.status === "ok") {
-        dispatch(setArticles(data.articles))
+    try {
+        const data = await newsAPI.getNews();
+        if (data.status === "ok") {
+            dispatch(setArticles(data.articles))
+        }
+    }
+    catch (error) {
+        alert("Упс... Не удалось загрузить новости")
     }
 };
 
