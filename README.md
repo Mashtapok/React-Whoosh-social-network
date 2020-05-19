@@ -1,1 +1,1 @@
-It's my first website on react
+Social network on React + Redux (study project)
