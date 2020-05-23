@@ -3,6 +3,5 @@ export const required = value => {
     return "Поле обязательное"
 };
 
-// функция возвращает другую функцию
 export const maxLengthCreator = (maxLength) =>
     (value) => value && value.length > maxLength ? `Максимальная длина ${maxLength} символов` : undefined;

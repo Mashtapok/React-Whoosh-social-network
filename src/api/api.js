@@ -8,7 +8,7 @@ const instance = axios.create({
     }
 });
 
-const newsURL = "https://newsapi.org/v2/top-headlines?country=ru&apiKey=3349251321fe4848b5273444970c2b98";
+const newsURL = "https://newsapi.org/v2/top-headlines?country=ru&apiKey=5ed99f894ed747178013e1bff5814a24";
 
 export const usersAPI = {
     getUsers(currentPage = 1, pageSize = 10) {
@@ -77,9 +77,11 @@ export const authAPI = {
     }
 };
 
+let config = {'X-Api-Key': '5ed99f894ed747178013e1bff5814a24'};
+
 export const newsAPI = {
     getNews() {
-        return axios.get(newsURL).then(response => {
+        return axios.get(newsURL, {headers  : config}).then(response => {
             return response.data
         })
     }

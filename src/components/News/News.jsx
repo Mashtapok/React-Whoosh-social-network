@@ -17,3 +17,4 @@ const News = ({articles}) => {
     );
 };
 export default News;
+

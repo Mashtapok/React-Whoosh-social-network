@@ -6,7 +6,7 @@ import {
     getUserStatus,
     updatePhoto, updateProfile,
     updateUserStatus
-} from "../../Redux/profile-reducer";
+} from "../../Redux/profile/profile-reducer";
 import {withRouter} from "react-router-dom";
 import {compose} from "redux";
 
@@ -30,7 +30,6 @@ class ProfileContainer extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (this.props.match.params.userId !== prevProps.match.params.userId) {
-            debugger
             this.refreshProfile();
         }
     }

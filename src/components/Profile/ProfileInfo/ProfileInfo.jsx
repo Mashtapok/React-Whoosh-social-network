@@ -4,9 +4,11 @@ import userPhoto from "../../../assets/images/user.svg";
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatusHooks from "./ProfileStatus/ProfileStatusHooks";
 import ProfileDataForm from "./ProfileDataForm";
+import {Gallery} from "../../common/Gallery/Gallery";
 
 const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, updatePhoto, isAvatarUpdating, updateProfile}) => {
     const [editMode, setEditMode] = useState(false);
+    const [showGallery, setShowGallery] = useState(false);
 
     const onSubmit = (formData) => {
         updateProfile(formData).then( ()=>{
@@ -19,6 +21,9 @@ const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, up
             updatePhoto(event.target.files[0]);
         }
     };
+    const gallery = () => {
+      if(profile.photos.large || profile.photos.small) setShowGallery(true);
+    };
 
     if (isFetching || !profile) {
         return <Preloader/>
@@ -27,7 +32,8 @@ const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, up
             <div className={s.profileBlock}>
                 <div className={s.avatarBlock}>
                     <img src={profile.photos.large || userPhoto}
-                         alt="фото пользователя" className={s.avatar_img}/>
+                         alt="фото пользователя" className={s.avatar_img}
+                    onClick={gallery} />
                     <div style={isAvatarUpdating ? {display: "flex"} : {display: "none"}}
                          className={s.loaging_fogging}>Загрузка...
                     </div>
@@ -50,6 +56,8 @@ const ProfileInfo = ({profile, isFetching, status, updateUserStatus, isOwner, up
                                            onSubmit={onSubmit}/>
                         : <ProfileData profile={profile} isOwner={isOwner} activateEditMode={() => setEditMode(true)}/>}
                 </div>
+
+                {showGallery && <Gallery setShowGallery={setShowGallery} isOwner={isOwner} img={profile.photos.large || profile.photos.small}/>}
             </div>
         </>
     );

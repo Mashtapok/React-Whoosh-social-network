@@ -1,5 +1,5 @@
 .postsBlock {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 .postsBlock__row {
     display: flex;
@@ -38,4 +38,15 @@
     margin-top: 10px;
     display: flex;
     flex-flow: column-reverse;  /*для появления сверху нового поста*/
+}
+
+@media screen and (max-width: 350px) {
+    .postsBlock textarea {
+        margin-right: 5px;
+        padding-right: 1px;
+    }
+    .postsBlock__addButton {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
 }

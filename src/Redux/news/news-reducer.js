@@ -1,4 +1,4 @@
-import {newsAPI} from "../api/api";
+import {newsAPI} from "../../api/api";
 
 const SET_ARTICLES = "news/SET_ARTICLES";
 
@@ -18,7 +18,7 @@ const newsReducer = (state = initialState, action) => {
 //ActionCreators
 export const setArticles = (articles) => ({type: SET_ARTICLES, articles});
 
-//ThinkCreators
+//ThunkCreators
 export const requestArticles = () => async dispatch => {
     try {
         const data = await newsAPI.getNews();

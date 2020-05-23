@@ -1,5 +1,5 @@
-import {profileAPI} from "../api/api";
-import {getAuthUserData} from "./auth-reducer";
+import {profileAPI} from "../../api/api";
+import {getAuthUserData} from "../authorization/auth-reducer";
 import {stopSubmit} from "redux-form";
 
 const ADD_POST = 'profile/ADD-POST';

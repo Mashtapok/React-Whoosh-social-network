@@ -22,7 +22,7 @@ const dialogsReducer = (state = initialState, action) => {
             let body = action.newMessageText;
             return {
                 ...state,
-                messages: [...state.messages, {id: 6, message: body} ],   // добавляем в конец массива вместо push()
+                messages: [...state.messages, {id: 6, message: body} ],
             };
         default:
             return state;

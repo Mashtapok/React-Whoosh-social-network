@@ -5,7 +5,7 @@ import {Field, reduxForm} from "redux-form";
 import {RememberMe, Input} from "../common/FormControls/FormControls";
 import {maxLengthCreator, required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
-import {getCaptchaUrl, login} from "../../Redux/auth-reducer";
+import {getCaptchaUrl, login} from "../../Redux/authorization/auth-reducer";
 import {Redirect} from "react-router-dom";
 const maxLength30 = maxLengthCreator(30);
 const maxLength10 = maxLengthCreator(10);
@@ -13,7 +13,6 @@ const maxLength10 = maxLengthCreator(10);
 const LoginForm = ({handleSubmit, error, captchaUrl}) => {
     return (
         <form onSubmit={handleSubmit}>
-
             <div className={styles.loginForm__block}>
                 <label>Введите email
                     <Field placeholder="example@gmail.com" name="email" component={Input} validate={[required, maxLength30]} type="email"/>

@@ -90,3 +90,10 @@ max-height: 40px;
 .dContents {
     display: contents;
 }
+
+@media screen and (max-width: 555px){
+    .dialogs img {
+        width: 30px;
+        height: 30px;
+    }
+}

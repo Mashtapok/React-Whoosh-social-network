@@ -2,7 +2,6 @@ import s from "./News.module.css";
 import React from 'react';
 
 const News = ({article}) => {
-
     let publishedTime = new Date(article.publishedAt);
     let time = publishedTime.toLocaleTimeString("ru", {hour: 'numeric', minute: 'numeric', second: 'numeric'});
     let date = publishedTime.toLocaleDateString("ru", {year: 'numeric', month: 'long', day: 'numeric'});

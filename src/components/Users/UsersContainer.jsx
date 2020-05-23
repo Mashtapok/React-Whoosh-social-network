@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {
     follow, requestUsers,
     setCurrentPage, toggleIsFollowing, unfollow,
-} from "../../Redux/users-reducer";
+} from "../../Redux/users/users-reducer";
 import Users from "./Users";
 import {compose} from "redux";
 import {
@@ -13,7 +13,7 @@ import {
     getIsFollowing,
     getPagesize,
     getTotalUsersCount
-} from "../../Redux/users-selectors";
+} from "../../Redux/users/users-selectors";
 
 class UsersContainer extends React.Component {
     componentDidMount() {

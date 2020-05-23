@@ -1,4 +1,4 @@
-import {usersAPI} from "../api/api";
+import {usersAPI} from "../../api/api";
 
 const FOLLOW = 'users/FOLLOW';
 const UNFOLLOW = 'users/UNFOLLOW';
@@ -22,7 +22,6 @@ const usersReducer = (state = initialState, action) => {
         case FOLLOW:
             return {
                 ...state,
-                // users: [...state.users] или строчка снизу v
                 users: state.users.map(user => {
                     if (user.id === action.userId) {
                         return {...user, followed: true}
@@ -105,16 +104,3 @@ export const unfollow = (userId) => async dispatch => {
 };
 
 export default usersReducer;
-
-
-/*
-export const follow = (userId) => async dispatch => {
-    dispatch(toggleIsFollowing(true, userId));
-
-    const data = await usersAPI.followUser(userId);
-
-    if (data.resultCode === 0) {
-        dispatch(followSuccess(userId))
-    }
-    dispatch(toggleIsFollowing(false, userId));
-};*/

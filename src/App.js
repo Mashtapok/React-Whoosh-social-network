@@ -19,15 +19,8 @@ const NewsContainer = React.lazy(() => import('./components/News/NewsContainer')
 const NotFound = React.lazy(() => import('./components/common/NotFound/NotFound'));
 
 class App extends Component {
-    catchAllUnhandledErrors = (promiseRejectionEvent) => {
-        alert("Что-то пошло не так")
-    };
     componentDidMount() {
         this.props.initializeApp();
-        window.addEventListener("unhandledrejection", this.catchAllUnhandledErrors);
-    }
-    componentWillUnmount() {
-        window.removeEventListener("unhandledrejection", this.catchAllUnhandledErrors);
     }
 
     render() {
