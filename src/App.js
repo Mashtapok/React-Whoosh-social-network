@@ -38,7 +38,7 @@ class App extends Component {
                         <Route path='/dialogs' render={() => <DialogsContainer/>}/>
                         <Route path='/users' render={() => <UsersContainer/>}/>
                         <Route path='/news' render={() => <NewsContainer/>}/>
-                        <Route path='/music' component={NotFound}/>
+                        <Route path='/music' component={Music}/>
                         <Route path='/login' render={() => <LoginPage/>}/>
                         <Route render={() => <NotFound/>}/>
                     </Switch>

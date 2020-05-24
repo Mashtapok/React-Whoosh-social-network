@@ -27,7 +27,7 @@ export const requestArticles = () => async dispatch => {
         }
     }
     catch (error) {
-        alert("Упс... Не удалось загрузить новости")
+        alert("API новостей решил прилечь")
     }
 };
 

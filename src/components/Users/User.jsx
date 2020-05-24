@@ -31,7 +31,7 @@ const User = ({user, isFollowing, follow, unfollow, ...props}) => {
                     <div className={styles.name}>{user.name}</div>
                 </div>
                 <div className={styles.status_block}>
-                    Cтатус: <p>{user.status}</p>
+                    {user.status ? <p>Статус: {user.status}</p> : <p>Статуса нет</p>} 
                 </div>
             </div>
         </div>

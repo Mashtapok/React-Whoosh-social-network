@@ -2,6 +2,7 @@
   "name": "react-1",
   "version": "0.1.0",
   "private": true,
+  "proxy" : "https://newsapi.org",
   "homepage": "https://mashtapok.github.io/React-Whoosh-social-network",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
